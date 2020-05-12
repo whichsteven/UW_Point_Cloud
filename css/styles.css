@@ -9980,6 +9980,14 @@ hr.light {
 }
 
 .page-section {
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  padding: 0 0 0 0;
+}
+
+.portfolio {
   padding: 8rem 0;
 }
 
@@ -10048,7 +10056,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(51, 0, 111, 0.6) 0%, rgba(51, 0, 111, 0.3) 100%), url("../assets/img/screenshot.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10076,6 +10084,8 @@ header.masthead h1 {
     font-size: 3.5rem;
   }
 }
+
+
 
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl {
   max-width: 1920px;
