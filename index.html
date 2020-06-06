@@ -32,12 +32,12 @@
 	<script src="libs/potree/potree.js"></script>
 	<script src="libs/plasio/js/laslaz.js"></script>
 
+
 	<!-- INCLUDE ADDITIONAL DEPENDENCIES HERE -->
 	document.title = "";
 	viewer.setEDLEnabled(false);
 	viewer.setBackground("gradient"); // ["skybox", "gradient", "black", "white"];
 	viewer.setDescription(``);
-
 	<div class="potree_container" style="position: absolute; width: 100%; height: 100%; left: 0px; top: 0px; ">
 		<div class="btn-group" style="position: absolute; z-index: 2;">
 			<button onclick="recenter()">Re-Center</button>
@@ -105,9 +105,13 @@
 						title: elTitle,
 						cameraPosition: [16.735, 30.486, 3.485],
 						cameraTarget: [29.124, 4.296, 4.423],
-						description: `<ul><li>Click on the annotation label to move a predefined view.</li>
-						<li>Click on the icon to execute the specified action.</li>
-						In this case, the action will bring you to another scene and point cloud.</ul>`
+						description: `Anderson Hall is an “H” shape composition in plan with the primary axis parallel to Stevens
+Way and perpendicular flanking wings at each end which housed the large classrooms
+and reading room. The building is four stories, including a ground floor accessed from the
+south with a large, steeply sloped slate shingled roof and cross gable roofs at each end
+wing. The major interior spaces are the Auditorium and the Club Room, located in the two wings
+of the building. These both feature double-height spaces with timber vaulting and large
+twenty-foot high windows facing north.<br></br><a href="https://facilities.uw.edu/files/media/uw-anderson-hall-hra-final-02-27-2014.pdf">Referencelink</a>`
 					});
 
 					sceneSG.annotations.add(and_hall);
@@ -118,16 +122,11 @@
 				{
 					let wfs_hall = new Potree.Annotation({
 						position: [69.347, -20.668, 4.144],
-						"cameraPosition": [48.144, -18.489, -1.583],
-						"cameraTarget": [67.554, -23.281, 1.823],
-						"title": "Winkenwerder Forest Sciences Laboratory",
-						"description": `
-						Suitable annotation positions and views can be obtained by
-						looking up the current camera position and target in the "Scene" panel,
-						or by evaluating following lines in your browser's developer console:<br><br>
-						<code>viewer.scene.view.position</code><br>
-						<code>viewer.scene.view.getPivot()</code><br>
-						`
+						cameraPosition: [48.144, -18.489, -1.583],
+						cameraTarget: [67.554, -23.281, 1.823],
+						title: "Winkenwerder Forest Sciences Laboratory",
+						description: `
+					The Hugo Winkenwerder Forest Sciences Laboratory was completed in 1963，after its completion in 1963, it was named for the Forestry Department's second Dean, Hugh A. Winkenwerder (1878-1947), a graduate of the pioneering Yale Forest School, and called the "Winkenwerder Forest Sciences Laboratory;" finally, in 1972, the building's name was shortened to "Winkenwerder Hall." It remains one of the best examples of non-residential Regional Modern architecture in the Puget Sound region. WInkenwerder Hall won an Award of Merit from the American Institute of Architects (AIA) in 1966, one of nine awarded that year.<br><br><a href="http://pcad.lib.washington.edu/building/7318/">Referencelink</a>`
 					});
 					sceneSG.annotations.add(wfs_hall);
 				}
@@ -136,16 +135,11 @@
 				{
 					let bld_hall = new Potree.Annotation({
 						position: [4.286, -46.089, 6.392],
-						"cameraPosition": [15.785, -16.873, -0.772],
-						"cameraTarget": [12.691, -29.520, 1.783],
-						"title": "Bloedal Hall",
-						"description": `
-						Suitable annotation positions and views can be obtained by
-						looking up the current camera position and target in the "Scene" panel,
-						or by evaluating following lines in your browser's developer console:<br><br>
-						<code>viewer.scene.view.position</code><br>
-						<code>viewer.scene.view.getPivot()</code><br>
-						`
+						cameraPosition: [15.785, -16.873, -0.772],
+						cameraTarget: [12.691, -29.520, 1.783],
+						title: "Bloedel Hall",
+						description: `
+						This building, with its virtuosic wood framing, echoed that of nearby Winkenwerder Hall, also designed by Grant, Copeland and Chervenak in 1963. Originally named the Forest Sciences Building, it was renamed Bloedel Hall for Julius H. Bloedel (1864-1957), founder of the MacMillan Bloedel Limited forest products company. Richard Haag and Associates, Landscape Architects, designed the courtyard formed among Bloedel, Winkenwerder and Anderson Halls. This courtyard had some paving and benches and providing a delightful, sheltered venue for outdoor gatherings or solitary moments. This courtyard remains one of the finest outdoor living spaces on the UW Campus.<br><br><a href="http://pcad.lib.washington.edu/building/8744/">Referencelink</a>`
 					});
 					sceneSG.annotations.add(bld_hall);
 				}
@@ -154,15 +148,12 @@
 				{
 					let stevens_way = new Potree.Annotation({
 						position: [21.627, 31.153, 1.753],
-						"cameraPosition": [-22.471, 37.657, 3.982],
-						"cameraTarget": [39.327, 24.035, 6.030],
-						"title": "Stevens Way",
-						"description": `
-						Suitable annotation positions and views can be obtained by
-						looking up the current camera position and target in the "Scene" panel,
-						or by evaluating following lines in your browser's developer console:<br><br>
-						<code>viewer.scene.view.position</code><br>
-						<code>viewer.scene.view.getPivot()</code><br>
+						cameraPosition: [-22.471, 37.657, 3.982],
+						cameraTarget: [39.327, 24.035, 6.030],
+						title: "Stevens Way",
+						description: `
+						Stevens Way & Garfield Ln Bus Stop<br></br>
+					Buses at this location:31,32,67,75,78,372,810,821,855,860,871,880
 						`
 					});
 					sceneSG.annotations.add(stevens_way);
@@ -190,7 +181,5 @@
 	</script>
 
 
-
-</body>
 
 </html>
