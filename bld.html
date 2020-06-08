@@ -6,7 +6,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-	<title>Potree Viewer</title>
+	<title>Bloedal Hall</title>
 
 	<link rel="stylesheet" type="text/css" href="libs/potree/potree.css">
 	<link rel="stylesheet" type="text/css" href="libs/jquery-ui/jquery-ui.min.css">
@@ -98,7 +98,7 @@
 			sceneSG.view.lookAt(new THREE.Vector3(12.691, -29.520, 1.783));
 
 			let material = e.pointcloud.material;
-			material.pointColorType = Potree.PointColorType.RGB; // any Potree.PointColorType.XXXX
+			// material.pointColorType = Potree.PointColorType.RGB; // any Potree.PointColorType.XXXX
 			material.size = 1;
 			material.pointSizeType = Potree.PointSizeType.ADAPTIVE;
 			material.shape = Potree.PointShape.SQUARE;
