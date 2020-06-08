@@ -6,7 +6,6 @@ Author : Brian Ho
 /* Add a black background color to the top navigation */
 html{
     scroll-behavior: smooth;
-    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .topnav {
@@ -21,6 +20,7 @@ html{
     font-size: bolder !important;
     z-index: 10;
     /* font-family: 'Oxygen', sans-serif; */
+    font-family: 'PT Sans Narrow', sans-serif;
     color:white;
 
 }
@@ -93,7 +93,8 @@ html{
     z-index: -1;
     display: flex;
     flex-direction: column;
-    justify-content: center
+    justify-content: center;
+    font-family: 'PT Sans Narrow', sans-serif;
     
 }
 #thumbnail h1{
@@ -230,6 +231,7 @@ hr:before {
     text-align: center;
     justify-content: flex-start;
     /* font-family: 'Oxygen', sans-serif; */
+    font-family: 'PT Sans Narrow', sans-serif;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -262,6 +264,9 @@ hr:before {
 .MapContent .mapbox{
     width: 33%;
     height:400px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
     text-align: left;
     padding:15px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -275,7 +280,12 @@ hr:before {
 .mapbox li, .certibox li{
     font-size: 14px;
 }
-
+.introContent button, .mapbox button{
+    width:100%;
+}
+.introContent button a, .mapbox button a {
+    color:white;
+}
 
 #potree_intro{
     background-color: #4B2E83;
@@ -286,6 +296,7 @@ hr:before {
     color: white;
     padding-bottom: 1.5em;
     /* font-family: 'Oxygen', sans-serif; */
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .introContent{
@@ -310,10 +321,15 @@ hr:before {
     font-size: 14px;
 }
 
+.introContent a{
+    margin: 0 auto;
+}
+
 
 
 footer{
     /* font-family: 'Oxygen', sans-serif; */
+    font-family: 'PT Sans Narrow', sans-serif;
     min-height: 40vh;
     background-color: #4B2E83;
     color: white;
@@ -324,19 +340,26 @@ footer{
 
 footer .ourinfo{
     margin-top:2em;
-    width:15em;
+    width:100%;
     min-height:25vh;
     margin-left:auto;
     margin-right: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
+}
+
+.ourinfo .us ul{
+    list-style-type: none;
+}
+.ourinfo .us li{
+    font-size: 18px;
 }
 
 .InfoLinks{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 footer img{
