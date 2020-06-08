@@ -12,7 +12,6 @@ html{
     position: fixed;
     overflow: hidden;
     width:100% !important;
-    margin-bottom: 20px !important;
     border: 1px solid transparent !important;
     background-color: #4B2E83;
     min-height: 5vh;
@@ -23,6 +22,9 @@ html{
     font-family: 'PT Sans Narrow', sans-serif;
     color:white;
 
+}
+.potree-top {
+    position: static;
 }
 
 
@@ -247,6 +249,22 @@ hr:before {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
 }
+
+#potree_render_area{
+    z-index:-10;
+}
+
+.btn-group{
+    z-index: 2;
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+}
+button.btn.btn-mdb-color{
+    background-color: #B7A57A !important;
+    /* color:black !important; */
+}
+
 .MapContent{
     margin-top:10px;
     display: flex;
@@ -280,11 +298,13 @@ hr:before {
 .mapbox li, .certibox li{
     font-size: 14px;
 }
-.introContent button, .mapbox button{
+.introContent a, .mapbox a{
     width:100%;
-}
-.introContent button a, .mapbox button a {
     color:white;
+}
+.introContent a button, .mapbox a button {
+    color:white;
+    width:100%;
 }
 
 #potree_intro{
