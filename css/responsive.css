@@ -54,11 +54,11 @@ Author: Brian Ho
     .arrow{
         top:45%;
     }
-    .MeContent{
+    .MapContent{
         flex-wrap: wrap;
     }
 
-    .MeContent .introbox {
+    .MapContent .mapbox {
         width:60%;
         margin-bottom: 20px;
     }
@@ -100,7 +100,7 @@ Author: Brian Ho
         top:60%;
     }
 
-    .MeContent .introbox{
+    .MapContent .mapbox{
         height:500px
     }
 
@@ -122,7 +122,7 @@ Author: Brian Ho
 }
 
 @media only screen and (max-width: 375px){
-    .MeContent .introbox{
+    .MapContent .mapbox{
         width:90%;
     }
 

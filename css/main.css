@@ -6,6 +6,7 @@ Author : Brian Ho
 /* Add a black background color to the top navigation */
 html{
     scroll-behavior: smooth;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .topnav {
@@ -19,7 +20,7 @@ html{
     font-size: 20px;
     font-size: bolder !important;
     z-index: 10;
-    font-family: 'Oxygen', sans-serif;
+    /* font-family: 'Oxygen', sans-serif; */
     color:white;
 
 }
@@ -201,20 +202,18 @@ html{
 hr{
     height: 20px;
     width:100%;
-    border-style: solid;
-    border-color: rgb(149,165,166);
-    border-width: 2px 0 0 0;
-    border-radius: 20px;
+    border-top: 1px solid #8c8b8b;
+	text-align: center;
     }
 hr:before {
-    display: block;
-    content: "";
-    height: 30px;
-    margin-top: -31px;
-    border-style: solid;
-    border-color: rgb(149,165,166);
-    border-width: 0 0 2px 0;
-    border-radius: 20px;
+    content: 'W';
+	display: inline-block;
+	position: relative;
+	top: -14px;
+	padding: 0 10px;
+	background: transparent;
+	color: #8c8b8b;
+	font-size: 18px;
     }
 
 /* Page contents*/
@@ -230,7 +229,7 @@ hr:before {
     padding-top:4em;
     text-align: center;
     justify-content: flex-start;
-    font-family: 'Oxygen', sans-serif;
+    /* font-family: 'Oxygen', sans-serif; */
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -246,7 +245,7 @@ hr:before {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
 }
-.MeContent{
+.MapContent{
     margin-top:10px;
     display: flex;
     flex-direction: row;
@@ -255,25 +254,25 @@ hr:before {
     
 }
 
-.MeContent li{
+.MapContent li{
     word-wrap: break-word;
     line-height: 2;
 }
 
-.MeContent .introbox{
-    width: 30%;
+.MapContent .mapbox{
+    width: 33%;
     height:400px;
     text-align: left;
-    padding:10px;
+    padding:15px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
 }
 
-.introbox h3{
+.mapbox h3{
     text-align: center;
 }
 
-.introbox li, .certibox li{
+.mapbox li, .certibox li{
     font-size: 14px;
 }
 
@@ -286,7 +285,7 @@ hr:before {
     padding-top: 5em;
     color: white;
     padding-bottom: 1.5em;
-    font-family: 'Oxygen', sans-serif;
+    /* font-family: 'Oxygen', sans-serif; */
 }
 
 .introContent{
@@ -314,7 +313,7 @@ hr:before {
 
 
 footer{
-    font-family: 'Oxygen', sans-serif;
+    /* font-family: 'Oxygen', sans-serif; */
     min-height: 40vh;
     background-color: #4B2E83;
     color: white;
@@ -323,7 +322,7 @@ footer{
     padding-top: 1em;
 }
 
-footer .myInfo{
+footer .ourinfo{
     margin-top:2em;
     width:15em;
     min-height:25vh;
