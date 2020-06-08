@@ -87,7 +87,7 @@ html{
 
 
 #thumbnail{
-    background-image:url('/images/sample.jpg');
+    background-image:url('../images/sample.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,7 +97,7 @@ html{
     flex-direction: column;
     justify-content: center;
     font-family: 'PT Sans Narrow', sans-serif;
-    
+
 }
 #thumbnail h1{
     text-align: center;
@@ -271,7 +271,7 @@ button.btn.btn-mdb-color{
     flex-direction: row;
     align-content: center;
     justify-content: space-evenly;
-    
+
 }
 
 .MapContent li{
@@ -330,7 +330,7 @@ button.btn.btn-mdb-color{
     margin-left:auto;
     margin-right: auto;
     padding:1em;
-    
+
 }
 
 .introContent span{
@@ -387,8 +387,3 @@ footer img{
     height:5em;
     cursor: pointer;
 }
-
-
-
-
-
