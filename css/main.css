@@ -85,9 +85,8 @@ html{
 
 
 
-
 #thumbnail{
-    background-image:url('../images/sample.jpg');
+    background-image:url('/images/image0.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,19 +94,20 @@ html{
     z-index: -1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    font-family: 'PT Sans Narrow', sans-serif;
+    justify-content: center
 
 }
 #thumbnail h1{
     text-align: center;
     color:whitesmoke;
+    text-shadow: 2px 2px 8px #483D8B;
     font-size: 48px;
     font-weight: bold;
 }
 #thumbnail h2{
     text-align: center;
     color:white;
+    text-shadow: 2px 2px 8px #483D8B;
     font-size: 40px;
     font-weight: bold;
 }
@@ -118,17 +118,20 @@ html{
 .arrow{
     position: absolute;
     top:55%;
-	left: 50%;
+	  left: 50%;
     margin-top: 6em;
     margin-left: -5em;
     display: inline-block;
     font-size: 14px;
+    background-color: #512DA8;
     color: white;
+    text-shadow: 2px 2px 8px #483D8B;
     text-align: center;
     width: 10em;;
     height: 60px;
     line-height: 60px;
-    border: 3px groove lightgray;
+    /* border: 3px groove lightgray; */
+    box-shadow: 2px 2px 8px #483D8B;
     overflow: hidden;
     text-transform: uppercase;
     cursor: pointer;
@@ -137,8 +140,8 @@ html{
 
 .arrow:hover{
     width: 60px;
-	 margin-left: -30px;
-     border-radius: 40px;
+	  margin-left: -30px;
+    border-radius: 40px;
 	 color: rgba(179, 195, 58, 0);
 	 transition: width 0.5s ease-in-out, margin 0.5s ease-in-out, border-radius 1s 0.25 ease-in-out, color 0.25s ease-in-out 0.25s;
 }
