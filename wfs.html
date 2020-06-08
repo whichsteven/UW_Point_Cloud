@@ -14,6 +14,15 @@
 	<link rel="stylesheet" type="text/css" href="libs/openlayers3/ol.css">
 	<link rel="stylesheet" type="text/css" href="libs/spectrum/spectrum.css">
 	<link rel="stylesheet" type="text/css" href="libs/jstree/themes/mixed/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="css/responsive.css" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link href="css/mdb.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap" rel="stylesheet">
+	<script src="main.js"></script>
 </head>
 
 <body>
@@ -31,19 +40,26 @@
 	<script src="libs/jstree/jstree.js"></script>
 	<script src="libs/potree/potree.js"></script>
 	<script src="libs/plasio/js/laslaz.js"></script>
-
+	<audio autoplay><source src="bgm.mp3" type="audio/mpeg"></audio>
 
 	<!-- INCLUDE ADDITIONAL DEPENDENCIES HERE -->
-	document.title = "";
-	viewer.setEDLEnabled(false);
-	viewer.setBackground("gradient"); // ["skybox", "gradient", "black", "white"];
-	viewer.setDescription(``);
-	<div class="potree_container" style="position: absolute; width: 100%; height: 100%; left: 0px; top: 0px; ">
-		<div class="btn-group" style="position: absolute; z-index: 2;">
-			<button onclick="recenter()">Re-Center</button>
-			<button onclick="low_pt_budget()">Low Resolution</button>
-			<button onclick="medium_pt_budget()">Medium Resolution</button>
-			<button onclick="high_pt_budget()">High Resolution</button>
+	<!-- document.title = ""; viewer.setEDLEnabled(false); viewer.setBackground("gradient"); // ["skybox", "gradient", "black", "white"];
+	viewer.setDescription(``); -->
+	<nav class="topnav potree-top" id="myTopnav">
+		<a href="/index.html" class="navbar-brand">Home</a>
+		<a class="links" href="/general.html">Main Map</a>
+		<a class="links" href="/bld.html">Bloedel Hall</a>
+		<a class="links" href="/and.html">Anderson Hall</a>
+		<a class="icon" href="javascript:void(0);" class="icon" onclick="responsivenav()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</nav>
+	<div class="potree_container" >
+		<div class="btn-group" >
+			<button onclick="recenter()" class="btn btn-mdb-color">Re-Center</button>
+			<button onclick="low_pt_budget()" class="btn btn-mdb-color">Low Resolution</button>
+			<button onclick="medium_pt_budget()" class="btn btn-mdb-color">Medium Resolution</button>
+			<button onclick="high_pt_budget()" class="btn btn-mdb-color">High Resolution</button>
 		</div>
 		<div id="potree_render_area"></div>
 		<!-- <div id="potree_sidebar_container"> </div> -->
