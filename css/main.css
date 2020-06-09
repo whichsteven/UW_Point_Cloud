@@ -208,7 +208,7 @@ html{
 hr{
     height: 20px;
     width:100%;
-    border-top: 1px solid #8c8b8b;
+    border-top: 1px solid #b7a57a;
 	text-align: center;
     }
 hr:before {
@@ -218,7 +218,7 @@ hr:before {
 	top: -14px;
 	padding: 0 10px;
 	background: transparent;
-	color: #8c8b8b;
+	color: #b7a57a;
 	font-size: 18px;
     }
 
