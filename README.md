@@ -36,7 +36,14 @@ On the left-up corner, there are three options to choose to adjust different lev
 
 * The Lidar data is collected by Jonathan Batchelor from [the Remote Sensing & Geospatial Analysis Laboratory](https://sites.uw.edu/rsgal) at the University of Washington
 
-
+<h3>Library</h3>
+* potree.js
+* aos js/css
+* mdb css
+* bootstrap js/css
+* font-awesome
+* jQuery
+* popper.js
 <h2><b>Acknowledgement</b></h2>
 
 * Team members: Steven Bao, Brian Ho, Lola Kang.

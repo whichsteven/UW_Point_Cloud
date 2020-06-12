@@ -83,7 +83,7 @@ Author: Brian Ho
 
 @media only screen and (max-width:736px){
     #thumbnail{
-        justify-content: flex-start;
+        justify-content: center;
     }
 
     .arrow{
