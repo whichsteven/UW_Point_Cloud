@@ -72,16 +72,13 @@ On the left-up corner, there are three options to choose to adjust different lev
 
 - [i18next](https://github.com/i18next/i18next/)
 
-  
+- [mdb](https://mdbootstrap.com/)
 
-<h3>Library</h3>
-* potree.js
-* aos js/css
-* mdb css
-* bootstrap js/css
-* font-awesome
-* jQuery
-* popper.js
+- [bootstrap](https://getbootstrap.com/)
+
+- [font-awesome](https://fontawesome.com/v4.7.0/icons/)
+
+  
 <h2><b>Acknowledgement</b></h2>
 
 * Team members: Steven Bao, Brian Ho, Lola Kang
