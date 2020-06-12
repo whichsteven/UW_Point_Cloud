@@ -74,7 +74,14 @@ On the left-up corner, there are three options to choose to adjust different lev
 
   
 
-
+<h3>Library</h3>
+* potree.js
+* aos js/css
+* mdb css
+* bootstrap js/css
+* font-awesome
+* jQuery
+* popper.js
 <h2><b>Acknowledgement</b></h2>
 
 * Team members: Steven Bao, Brian Ho, Lola Kang
