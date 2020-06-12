@@ -1,26 +1,44 @@
 <h1><b>University of Washington
-Pointcloud Virtual Reality Tour</b></h1>
+Point Cloud Virtual Tour</b></h1>
 
-![image](images/image1.png)
+![home](images/home.png)
+
+
 
 <h2><b>Introduction</b></h2>
+
 This project provides people with a new travel experience in the form of point cloud visualization. It mainly shows the buildings of the School of Environmental and Forest Sciences. The three parts of the campus of the University of Washington Forestry Department are Anderson Hall (1925), Winkenwerder Hall and Bloedel Hall. The three buildings are located on the southeastern edge of the campus and form a quiet wooded ensemble, surrounding a calm central courtyard. In the project, the point-cloud view can be adjusted to various angles to achieve the most immersive experience.
+
+
+
+<h2><b>Project Goal</b></h2>
+
+- To explore new possibilities with point cloud visualization and Potree
+- Designing a new way for virtual tour
+
+
 
 <h2><b>Function</b></h2>
 
-![image](images/image2.png)
+![entries](images/entries.png)
 
 The main page briefly introduce these three buildings. It helps people to have a big picture about the tour before they get into the point cloud virtualization page.
 
-After clicking the "Click Here" button, the second page shows like this:
+After clicking the "Enter" button, the second page shows like this:
 
-![image](images/image3.png)
+![potree](images/potree.png)
 
-On the left-up corner, there are three options to choose to adjust different levels of resolution. Re-Center can reset the view angle.
+On the left-up corner, there are three options to choose to adjust different levels of resolution. "Play animation" could play a camera animation along the preset route. "Re-Center" can reset the view angle.
 
-![image](images/image4.png)
+![buttons](images/buttons.png)
+
+
 
 <h2><b>Data Sources</b></h2>
+
+<h3>Point Cloud Data</h3>
+
+- The Lidar data is collected by Jonathan Batchelor from [the Remote Sensing & Geospatial Analysis Laboratory](https://sites.uw.edu/rsgal) at the University of Washington
 
 <h3>Content</h3>
 
@@ -32,13 +50,33 @@ On the left-up corner, there are three options to choose to adjust different lev
 
 * [Birds' Sounds](https://www.tukuppt.com/)
 
-<h3>Point Cloud Data</h3>
 
-* The Lidar data is collected by Jonathan Batchelor from [the Remote Sensing & Geospatial Analysis Laboratory](https://sites.uw.edu/rsgal) at the University of Washington
+
+<h2><b>Libraries</bb></h2>
+
+- [Potree](https://github.com/potree/potree/)
+
+- [three.js](http://threejs.org/)
+
+- [Jquery](https://jquery.com/)
+
+- [laszip](http://www.laszip.org/)
+
+- [Plas.io (laslaz) ](https://github.com/verma/plasio)
+
+- [OpenLayers3](http://openlayers.org/)
+
+- [proj4js](http://proj4js.org/)
+
+- [tween](https://github.com/tweenjs/tween.js/)
+
+- [i18next](https://github.com/i18next/i18next/)
+
+  
 
 
 <h2><b>Acknowledgement</b></h2>
 
-* Team members: Steven Bao, Brian Ho, Lola Kang.
-*
-*
+* Team members: Steven Bao, Brian Ho, Lola Kang
+* Dr. Bo Zhao for ideation
+* Jonathan Batchelor for the LiDAR data
