@@ -84,3 +84,4 @@ On the left-up corner, there are three options to choose to adjust different lev
 * Team members: Steven Bao, Brian Ho, Lola Kang
 * Dr. Bo Zhao for ideation
 * Jonathan Batchelor for the LiDAR data
+* Help from [HGIS Lab at the University of Washington - Seattle](https://hgis.uw.edu/)
