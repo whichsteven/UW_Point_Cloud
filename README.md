@@ -4,8 +4,8 @@ Point Cloud Virtual Tour</b></h1>
 ![home](images/home.png)
 
 <h2><b>Before Cloning the Repository</b></h2>
-We upload the point cloud data via `git-lfs` service. Please install `git-lfs` (https://git-lfs.github.com) first before you clone the repository. Otherwise, the point cloud data will not be downloaded and you will not able to see the point cloud. Please note that the data is about 4GB.
-
+<del>We upload the point cloud data via `git-lfs` service. Please install `git-lfs` (https://git-lfs.github.com) first before you clone the repository. Otherwise, the point cloud data will not be downloaded and you will not able to see the point cloud. Please note that the data is about 4GB.</del>
+We stopped using git-lfs service. To correctly view the point cloud data, please download the data pack from https://drive.google.com/file/d/1vlizjHpdsFoJ0GUeYk1hCmd6r0xBUlKp/view?usp=sharing. After downloading, unzip the "UW_Campus" folder to the "pointclouds" folder.
 
 <h2><b>Introduction</b></h2>
 
